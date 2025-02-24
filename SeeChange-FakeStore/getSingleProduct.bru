@@ -1,0 +1,15 @@
+meta {
+  name: getSingleProduct
+  type: http
+  seq: 3
+}
+
+get {
+  url: https://fakestoreapi.com/products/:id
+  body: none
+  auth: none
+}
+
+params:path {
+  id: 1
+}

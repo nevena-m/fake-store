@@ -1,0 +1,15 @@
+meta {
+  name: getProductsInCategory
+  type: http
+  seq: 5
+}
+
+get {
+  url: https://fakestoreapi.com/products/category/:categoryName
+  body: none
+  auth: none
+}
+
+params:path {
+  categoryName: jewelery
+}

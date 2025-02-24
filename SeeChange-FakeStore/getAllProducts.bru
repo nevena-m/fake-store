@@ -1,0 +1,16 @@
+meta {
+  name: getAllProducts
+  type: http
+  seq: 2
+}
+
+get {
+  url: https://fakestoreapi.com/products?limit=5&sort=acs
+  body: none
+  auth: none
+}
+
+params:query {
+  limit: 5
+  sort: acs
+}
