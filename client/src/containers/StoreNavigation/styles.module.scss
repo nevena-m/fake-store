@@ -1,0 +1,13 @@
+.StoreNavigationWrapper {
+   & > * {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100px;
+
+    &:hover {
+        background-color: oklch(0.302 0.056 229.695);
+    }
+   }
+}

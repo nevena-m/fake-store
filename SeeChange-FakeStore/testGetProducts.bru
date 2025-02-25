@@ -5,14 +5,14 @@ meta {
 }
 
 post {
-  url: http://localhost:8080/product
+  url: http://localhost:8080/product/filter
   body: json
   auth: none
 }
 
 body:json {
   {
-    "direction": "asc",
+    "sort": "asc",
     "limit": 5,
     "categoryName": "jewelery"
   }
