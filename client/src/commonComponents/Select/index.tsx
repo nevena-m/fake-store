@@ -42,7 +42,7 @@ export default function Select({
                 )}
             {isError
                 && options.length === 0
-                && <SelectOption label={"error"} value="Couldn't load options..." />}
+                && <SelectOption label={"Couldn't load options..."} value={"error"} />}
         </select>
     )
 }
